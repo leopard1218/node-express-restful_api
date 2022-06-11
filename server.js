@@ -6,7 +6,7 @@ let express = require('express'),
     dbConfig = require('./db/database');
 
 require('dotenv').config()
-console.log(process.env.mongoURI)
+console.log("ddddddddddddddddddddddd", process.env.mongoURI)
 // Connecting mongoDB
 
 mongoose.Promise = global.Promise;
