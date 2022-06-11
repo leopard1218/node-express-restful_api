@@ -10,7 +10,7 @@ console.log(process.env.mongoURI)
 // Connecting mongoDB
 
 mongoose.Promise = global.Promise;
-mongoose.connect(dbConfig.db, {
+mongoose.connect(process.env.mongoURI, {
     useNewUrlParser: true
 }).then(() => {
     console.log('Database connected')
