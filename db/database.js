@@ -1,3 +1,3 @@
 module.exports = {
-  db: 'mongodb://localhost:27017/restapi'
+  db: 'https://cloud.mongodb.com/v2/62a405b83926791c335c730e#metrics/replicaSet/62a40643d477ac7559b21e5b/explorer'
 };
